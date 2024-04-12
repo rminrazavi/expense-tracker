@@ -5,7 +5,7 @@ import {
   GET_TRANSACTION,
   GET_TRANSACTION_STATISTICS,
 } from "../graphql/queries/transaction.query";
-import { UPDATE_TRANSACTION } from "../graphql/mutations/transcation.mutation";
+import { UPDATE_TRANSACTION } from "../graphql/mutations/transaction.mutation";
 import toast from "react-hot-toast";
 import TransactionFormSkeleton from "../components/skeletons/TransactionFormSkeleton";
 
